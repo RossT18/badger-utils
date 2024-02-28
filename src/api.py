@@ -14,8 +14,7 @@ class API:
     if font_name in bitmap_fonts:
       return bitmap_fonts[font_name] * scale
     else:
-      return scale * 20
-      # TODO: Measure vector fonts properly
+      return scale * 30
       # From the docs:
       # At scale=1, the top edge of upper case letters is 10 pixels above the specified y,
       # text baseline is 10 pixels below the specified y,
