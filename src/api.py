@@ -60,4 +60,4 @@ class API:
       text_props['scale'],
     )
 
-    return text_width
+    return (text_width, text_height)
