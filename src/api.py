@@ -1,8 +1,4 @@
-import badger2040
 from badger2040 import WIDTH, HEIGHT
-
-# Display Setup
-display = badger2040.Badger2040()
 
 class API:
   def __init__(self, display):
